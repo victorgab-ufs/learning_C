@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "02-helloWorld.C": "cpp",
+        "03-Debugando.C": "cpp",
+        "1.2-helloWorld.C": "cpp",
+        "1.2_helloWorld.C": "cpp",
+        "2.1_Output.C": "cpp",
+        "2.1.1_Output.C": "cpp"
+    }
+}

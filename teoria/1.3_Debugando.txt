@@ -1,0 +1,7 @@
+sintaxe -> regras que devem ser seguidas para escrever na linguagem
+
+semântica -> lógica 
+
+No debug são evidenciados os erros de sintaxe
+
+
