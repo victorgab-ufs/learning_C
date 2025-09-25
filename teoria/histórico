@@ -1,0 +1,16 @@
+Alternativa para "unificar" processadores (alternativa ao Assembly)
+
+Linguagem de alto nível
+
+Sistemas operacionais, sistemas desktop, sistemas embarcados, telecomunicações
+
+Multiplataforma, desempenho (compilada), próxima ao hardware, sintaxe rebuscada
+
+Não dá suporte à Orientação a Objetos 
+
+Uso de bibliotecas
+
+Todo o código fica dentro de uma função main
+
+
+
