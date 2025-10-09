@@ -8,7 +8,11 @@ int main(){
     do {
         printf("Insira a senha:\n");
         scanf("%d", &tentativa);
-        printf("Senha incorreta!\n\n");
+        
+        if (senha != tentativa){
+            printf("Senha incorreta!\n\n");
+        }
+        
     } while (senha != tentativa);
     
     printf("Acesso permitido\n");
