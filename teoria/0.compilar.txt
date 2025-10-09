@@ -1,0 +1,17 @@
+Comandos úteis para a compilações no linux
+
+pwd -> printa o caminho do diretório (pasta) atual
+
+ls -> lista as pastas e arquivos do diretório atual
+
+cd <diretório> -> troca para o diretório especificado
+
+cd .. -> troca para o diretório pai
+
+code . -> abre o vscode na pasta atual
+
+gcc <programa>.c -o <nomeNovo> && ./<nomeNovo>
+
+gcc <programa>.c -> compila
+-o <nomeNovo> -> renomea
+&& ./<nomeNovo> -> executa
