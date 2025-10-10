@@ -51,4 +51,4 @@ int main(){
     printf("\nMaior elemento: %d\nMenor elemento: %d\n", maior, menor);
 
     return 0;
-}}
+}
