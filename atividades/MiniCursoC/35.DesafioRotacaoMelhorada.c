@@ -3,9 +3,11 @@
 int main(){
 
     int tamanho = 0;
-
-    int rotacoes;
-    int quebras, maior, posicao = 0;
+    int rotacoes = 0;
+    int quebras = 0;
+    int maior = 0;
+    int posicao = 0;
+    int ordem = 0;
 
     scanf("%d", &tamanho);
     int elementos[tamanho];
@@ -17,11 +19,16 @@ int main(){
         index++;
     }
 
-    for (int k = 0; k < tamanho-1-posicao; k++){
+    for (int k = 0; k < tamanho-1; k++){
 
         if (elementos[k] > elementos[k+1]){
             quebras++;
             posicao = k;
+        }
+
+        if (elementos[k] < elementos[k+1]){
+
+            ordem++;
         }
 
     }
@@ -35,8 +42,12 @@ int main(){
         printf("%d\n", tamanho-posicao-1);
     }
 
-    else{
-        printf("%d\n", -1);
+    else if (ordem == tamanho-1){
+        printf("%d\n", 0);
+    }
+
+    else {
+        printf("%d", -1);
     }
 
     return 0;
