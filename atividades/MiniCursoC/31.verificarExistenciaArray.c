@@ -34,10 +34,10 @@ int main(){
         
     }
 
-    maior = numeros[1];
-    menor = numeros[1];
+    maior = numeros[0];
+    menor = numeros[0];
 
-    for (int k = 0; k < 9; k++){
+    for (int k = 1; k < 10; k++){
 
         if (numeros[k] > maior){
             maior = numeros[k];
