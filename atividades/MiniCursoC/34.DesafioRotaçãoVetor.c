@@ -2,14 +2,15 @@
 
 int main(){
 
+    // definicao das variaveis
     int tamanho, rotacoes;
-
+    // input para definir tamanho do array
     scanf("%d", &tamanho);
-
+    // incializacao de variaveis
     int elementos[tamanho];
     int index = 0;
     int inicio = 1;
-    
+    // leitura dos elementos e atribuicao as posicoes do array
     while (index < tamanho){
         scanf("%d",  &elementos[index]);
         index++;
